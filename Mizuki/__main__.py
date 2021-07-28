@@ -78,23 +78,23 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """Hey there, my name is Mizuki.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
 buttons = [
     [
-        InlineKeyboardButton(text="♞ Support", url="https://t.me/Infinity_BOTs"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text=" Support", url="https://t.me/LindaSupport_Official"),
+        InlineKeyboardButton(text=" Updates", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="#⃣ Source Code", url="https://github.com/ImJanindu/Mizuki"
+            text="Help", callaback_data="help_back"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add me to your group ➕", url="t.me/TheMizukiBot?startgroup=true"
+            text="➕ Add me to your group ➕", url="t.me/TheLindaBot?startgroup=true"
         ),
     ],
 ]
 
 HELP_STRINGS = """
-Hey there! My name is *Mizuki*.
+Hey there! My name is *Linda*.
 I'm a group management bot, here to help you get around and keep the order in your groups!
 
 *Main* commands available:
